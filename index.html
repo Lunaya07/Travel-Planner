@@ -3,27 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Planner</title>
+    <title>Summer Travel Planner</title>
     <style>
-        body { font-family: Arial, sans-serif; }
-        header { text-align: center; padding: 20px; background: #f8f9fa; }
-        nav a { margin: 0 10px; }
-        section { padding: 20px; }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #D1CFD4; /* 主页背景色 */
+            color: #ffffff; /* 文字颜色 */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 100px 20px; /* 调整内容和页面顶部的距离 */
+            text-align: center;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 24px;
+            margin-bottom: 50px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #73B8BF; /* 按钮背景色 */
+            color: #ffffff;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #ABB2CE; /* 鼠标悬停时按钮背景色 */
+        }
+        footer {
+            background-color: #D8D9B8; /* 页脚背景色 */
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Travel Planner</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="plan.html">Plan a Trip</a>
-            <a href="record.html">Record a Trip</a>
-            <a href="download.html">Downloads</a>
-        </nav>
-    </header>
-    <section>
-        <h2>Welcome to Travel Planner</h2>
-        <p>Plan and record your trips with ease.</p>
-    </section>
+
+<div class="container">
+    <h1>Summer Travel Planner</h1>
+    <p>Plan your dream vacation with ease!</p>
+    <a href="plan.html" class="btn">Plan Your Trip</a>
+</div>
+
+<footer>
+    <p>&copy; 2024 Summer Travel Planner. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
+
