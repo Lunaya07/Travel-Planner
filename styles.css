@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #FEE5A0; /* 主页背景色 */
+    background-color: #73B8BF; /* 主页背景色 */
     color: #37474F; /* 文字颜色 */
 }
 .container {
@@ -14,7 +14,7 @@ body {
 h1 {
     font-size: 48px;
     margin-bottom: 30px;
-    color: #01579B; /* 标题颜色 */
+    color: #D1CFD4; /* 标题颜色 */
 }
 p {
     font-size: 24px;
@@ -23,7 +23,7 @@ p {
 .btn {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #0288D1; /* 按钮背景色 */
+    background-color: #ABB2CE; /* 按钮背景色 */
     color: #ffffff;
     font-size: 20px;
     text-decoration: none;
@@ -35,10 +35,10 @@ p {
     margin-right: 0; /* 最后一个按钮不添加右边距 */
 }
 .btn:hover {
-    background-color: #01579B; /* 鼠标悬停时按钮背景色 */
+    background-color: #D8D9B8; /* 鼠标悬停时按钮背景色 */
 }
 footer {
-    background-color: #FFD54F; /* 页脚背景色 */
+    background-color: #D8B2C1; /* 页脚背景色 */
     padding: 20px 0;
     text-align: center;
     position: fixed;
